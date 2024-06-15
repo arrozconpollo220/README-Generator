@@ -55,7 +55,7 @@ function generateMarkdown(data) {
   -[Licenses](#Licenses)
   -[Contributions](#Contributions)
   -[Testing](#Testing)
-  -[Site-URL](#Site URL)
+  -[SiteURL](#Site URL)
   -[Screenshots](#Screenshots)
 
   ## Description
