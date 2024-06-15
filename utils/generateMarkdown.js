@@ -33,21 +33,21 @@ function generateMarkdown(data) {
   # ${data.title}
 
   ## Table of Contents
-  -[Description](#Description)
-  -[Installation](#Installation)
-  -[Usage](#Usage)
-  -[Credits](#Credits)
-  -[Licenses](#Licenses)
-  -[Contributions](#Contributions)
-  -[Testing](#Testing)
-  -[Site-URL](#Site-URL)
-  -[Screenshots](#Screenshots)
+  \n -[Description](#Description)
+  \n -[Installation](#Installation)
+  \n -[Usage](#Usage)
+  \n -[Credits](#Credits)
+  \n -[Licenses](#Licenses)
+  \n -[Contributions](#Contributions)
+  \n -[Testing](#Testing)
+  \n -[Site-URL](#Site-URL)
+  \n -[Screenshots](#Screenshots)
 
   ## Description
   ${data.description}
 
   ## Installation
-  ${data.installation}
+  ${renderLicenseBadge(data.installation)}
 
   ## Usage
   ${data.usage}
@@ -56,7 +56,7 @@ function generateMarkdown(data) {
   ${data.credits}
 
   ## Licenses
-  ${removeEventListener.data.license}
+  ${data.license}
 
   ## Contributions
   ${data.contribute}
