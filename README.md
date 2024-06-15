@@ -1,7 +1,7 @@
 
-    [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-  # README Generator
-
+  # README GEN
+  
+ [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   ## Table of Contents
   
  -[Description](#Description)
@@ -26,10 +26,10 @@
   Makes README's
 
   ## Installation
-  Install it bro!
+  install it
 
   ## Usage
-  Just use it bro!
+  use it
 
   ## Credits
   MMRD
@@ -38,10 +38,10 @@
   This project is licensed under the [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) license. Click on the badge above for more information.
 
   ## Contributions
-  Send me money!
+  HELP ME!!!
 
   ## Testing
-  Testing it now!
+  testing
 
   ## Site-URL
   https://github.com/arrozconpollo220/README-Generator
