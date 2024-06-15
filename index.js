@@ -60,6 +60,11 @@ const questions = [
         type: "input",
         message: "Please provide your site URL.",
         name: "URL",    
+        },
+        {
+        type: "confirm",
+        message: "Would you like to add screenshots?",
+        name: "screenshot",   
         }
     ];
 

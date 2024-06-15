@@ -5,7 +5,25 @@ function renderLicenseBadge(license) {
     return '';
   }
 
-
+  switch (license) {
+    case 'MIT':
+      return '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]';
+      break;
+    case 'Apache':
+      return '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)]';
+      break;
+    case 'IBM':
+      return '[![License: IPL 1.0](https://img.shields.io/badge/License-IPL_1.0-blue.svg)]';
+      break;
+    case 'Mozilla':
+      return '[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)]';
+      break;
+    case 'Perl':
+      return '[![License: Artistic-2.0](https://img.shields.io/badge/License-Perl-0298c3.svg)]'; 
+      break;   
+    default:
+      return '';
+  }
 }
 
 // // TODO: Create a function that returns the license link
@@ -29,6 +47,17 @@ function generateMarkdown(data) {
   return `
   # ${data.title}
 
+  ## Table of Contents
+  -[Description](#Description)
+  -[Installation](#Installation)
+  -[Usage](#Usage)
+  -[Credits](#Credits)
+  -[Licenses](#Licenses)
+  -[Contributions](#Contributions)
+  -[Testing](#Testing)
+  -[Site URL](#Site URL)
+  -[Screenshots](#Screenshots)
+
   ## Description
   ${data.description}
 
@@ -44,7 +73,7 @@ function generateMarkdown(data) {
   ## Licenses
   ${data.license}
 
-  ## Future Contributions
+  ## Contributions
   ${data.contribute}
 
   ## Testing
@@ -52,6 +81,9 @@ function generateMarkdown(data) {
 
   ## Site URL
   ${data.URL}
+
+  ## Screenshots
+  ${''}
 
 `;
 }
