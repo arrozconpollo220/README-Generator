@@ -1,5 +1,5 @@
 
-  # Readme gen
+  # readme gen
 
   ## Table of Contents
   -[Description](#Description)
@@ -9,32 +9,32 @@
   -[Licenses](#Licenses)
   -[Contributions](#Contributions)
   -[Testing](#Testing)
-  -[Site URL](#Site URL)
+  -[Site-URL](#Site URL)
   -[Screenshots](#Screenshots)
 
   ## Description
-  makes readme
+  makes readme's
 
   ## Installation
-  install it
+  install it bro
 
   ## Usage
-  use to make readme
+  just use
 
   ## Credits
-  MMRD
+  mmrd
 
   ## Licenses
-  Perl
+  MIT
 
   ## Contributions
-  give me money
+  give money yo
 
   ## Testing
-  testing
+  testing it out
 
   ## Site URL
-  readme.com
+  readmesite
 
   ## Screenshots
   
