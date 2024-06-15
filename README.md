@@ -1,5 +1,5 @@
 
-  # testing
+  # readme test
 
   ## Table of Contents
   
@@ -22,34 +22,34 @@
  -[Screenshots](#Screenshots)
 
   ## Description
-  testing
+  makes readme's
 
   ## Installation
-  
+  install it bro
 
   ## Usage
-  testing
+  use it bro
 
   ## Credits
-  mmdr
+  mmrd
 
   ## Licenses
-  Apache
+  This project is licensed under the [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) license. Click on the badge above for more information.
 
   ## Contributions
-  money yo
+  send money yo
 
   ## Testing
   testing
 
   ## Site-URL
-  s;ldfkj
+  wlkem
 
   ## Screenshots
   
 
   ## Questions?
-  Any questions regarding this project can be answered by contacting me through my GitHub Profile at https://github.com/;slkjdf or at my email address at s;ldfji. 
+  Any questions regarding this project can be answered by contacting me through my GitHub Profile at https://github.com/s;lfk or at my email address at a;welkr. 
 
   -Thank you
 

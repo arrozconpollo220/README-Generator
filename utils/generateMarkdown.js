@@ -7,20 +7,20 @@ function renderLicenseBadge(license) {
 
   switch (license) {
     case 'MIT':
-      return '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]';
+      return '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)';
       break;
     case 'Apache':
-      return '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)]';
+      return '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)';
       break;
     case 'IBM':
-      return '[![License: IPL 1.0](https://img.shields.io/badge/License-IPL_1.0-blue.svg)]';
+      return '[![License: IPL 1.0](https://img.shields.io/badge/License-IPL_1.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)';
       break;
     case 'Mozilla':
-      return '[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)]';
+      return '[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)';
       break;
     case 'Perl':
-      return '[![License: Artistic-2.0](https://img.shields.io/badge/License-Perl-0298c3.svg)]'; 
-      break;   
+      return '[![License: Artistic-2.0](https://img.shields.io/badge/License-Perl-0298c3.svg)](https://opensource.org/licenses/Artistic-2.0)'; 
+      break;    
     default:
       return '';
   }
@@ -47,7 +47,7 @@ function generateMarkdown(data) {
   ${data.description}
 
   ## Installation
-  ${renderLicenseBadge(data.installation)}
+  ${data.installation}
 
   ## Usage
   ${data.usage}
@@ -56,7 +56,7 @@ function generateMarkdown(data) {
   ${data.credits}
 
   ## Licenses
-  ${data.license}
+  This project is licensed under the ${renderLicenseBadge(data.license)} license. Click on the badge above for more information.
 
   ## Contributions
   ${data.contribute}
@@ -79,3 +79,4 @@ function generateMarkdown(data) {
 }
 
 module.exports = generateMarkdown;
+
