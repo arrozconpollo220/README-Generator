@@ -47,7 +47,11 @@
   N/A
 
   ## Screenshots
-  
+  [Recording of README Gen Demo.webm](https://github.com/arrozconpollo220/README-Generator/assets/164965766/23b7fd27-6c93-4582-9f67-569d0fcf67e6)
+![Screenshot README GEN1](https://github.com/arrozconpollo220/README-Generator/assets/164965766/c9bd26e0-5c4f-4b51-8399-0ea21340d047)
+![Screenshot README GEN2](https://github.com/arrozconpollo220/README-Generator/assets/164965766/74c2c657-565c-4dc2-aac9-2b1bbe588a6b)
+![Screenshot README GEN3](https://github.com/arrozconpollo220/README-Generator/assets/164965766/84730ce7-a7e3-4b1d-85f3-eaf643e6049e)
+
 
   ## Questions?
   Any questions regarding this project can be answered by contacting me through my GitHub Profile at https://github.com/arrozconpollo220 or at my email address at alexander.rodriguez2121@gmail.com. 
