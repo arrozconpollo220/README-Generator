@@ -20,7 +20,10 @@ function renderLicenseBadge(license) {
       break;
     case 'Perl':
       return '[![License: Artistic-2.0](https://img.shields.io/badge/License-Perl-0298c3.svg)](https://opensource.org/licenses/Artistic-2.0)'; 
-      break;    
+      break; 
+    case 'ISC':
+      return '[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)';
+      break;   
     default:
       return '';
   }
